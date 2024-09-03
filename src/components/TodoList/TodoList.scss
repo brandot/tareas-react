@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+
+.lista-tareas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 510px;
+    margin-top: 15px;
+}

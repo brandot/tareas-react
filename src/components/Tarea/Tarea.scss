@@ -1,0 +1,58 @@
+@import '../../styles/colors';
+
+.tarea-contenedor {
+    display: flex;
+    flex-direction: row;
+    background-color: $WHITE0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid $GRAY6;
+}
+
+.tarea-nombre {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: $GRAY1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarea-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarea-fecha {
+    display: flex;
+    font-size: 11px;
+    color: $GRAY4;
+    margin-top: 3px;
+}
+
+input[type='checkbox']{
+    color: $GRAY1;
+    margin-right: 10px;
+}
+
+.tarea-iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+}
+
+.tarea-icono {
+    color: $GRAY2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tarea-contenedor.completada{
+    color: $GRAY1;
+    text-decoration: line-through;
+}
